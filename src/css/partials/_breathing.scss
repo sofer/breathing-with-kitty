@@ -150,9 +150,19 @@
   }
 }
 
+@media screen and (min-height: 560px) {
+  .character {
+    transform: scale(0.95);
+    top: 7%;
+  }
+  .fading-message {
+    top: 2%;
+  }
+}
+
 @media screen and (min-height: 595px) {
   .character {
-    transform: scale(1);
+    transform: scale(1.1);
     top: 3%;
   }
   .fading-message {
